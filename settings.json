@@ -1,0 +1,37 @@
+{
+    "symbols.hidesExplorerArrows": false,
+    "redhat.telemetry.enabled": true,
+    "files.autoSave": "afterDelay",
+    "editor.fontSize": 18,
+    "editor.lineHeight": 1.6,
+    "editor.mouseWheelZoom": true,
+    "[prisma]": {
+        "editor.formatOnSave": true
+    },
+    "explorer.compactFolders": false,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit",
+        "source.fixAll.eslint": "explicit"
+    },
+    "eslint.format.enable": true,
+    "workbench.colorTheme": "React Dev Theme (dark)",
+    "workbench.iconTheme": "symbols",
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.renderLineHighlight": "gutter",
+    "workbench.editor.labelFormat": "short",
+    "editor.semanticHighlighting.enabled": false,
+    "breadcrumbs.enabled": false,
+    "editor.minimap.enabled": false,
+    "workbench.statusBar.visible": false,
+    "workbench.layoutControl.enabled": false,
+    "workbench.navigationControl.enabled": false,
+    "chat.commandCenter.enabled": false,
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.patterns": {
+        "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-*, bun.lockb, nest*, package-lock*",
+        "tailwind.config.*": "tailwind.config*, postcss.config*",
+        ".env.local": ".env*",
+        ".env": ".env*"
+    },
+}
