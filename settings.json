@@ -15,7 +15,7 @@
         "source.fixAll.eslint": "explicit"
     },
     "eslint.format.enable": true,
-    "workbench.colorTheme": "React Dev Theme (dark)",
+    "workbench.colorTheme": "GitHub Dark Default",
     "workbench.iconTheme": "symbols",
     "workbench.startupEditor": "newUntitledFile",
     "editor.renderLineHighlight": "gutter",
